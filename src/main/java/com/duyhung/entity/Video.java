@@ -28,4 +28,6 @@ public class Video implements Serializable {
     private String description;
     @Column(name = "active")
     private Boolean active;
+    @Column(name = "youtube_link")
+    private String youtubeLink;
 }

@@ -1,0 +1,153 @@
+
+body {
+  font-family: "Courier New", Courier, monospace;
+}
+.header {
+  margin-bottom: 50px;
+}
+/* body */
+h6 {
+  font-size: 1em;
+  font-weight: 700;
+}
+.card {
+  max-width: 100%;
+}
+.card-hover:hover{
+  transform: scale(1.05);
+  box-shadow: 0 10px 20px rgba(0,0,0,.12), 0 4px 8px rgba(0,0,0,.06);
+}
+.card .card-img-top {
+  margin: 0 auto;
+}
+.card .card-image-custom {
+  width: 100%;
+}
+
+.card-text {
+  padding-bottom: 20px;
+}
+.card .card-body .card-title-box {
+  color: #b4b4b4;
+  padding: 0 5px;
+}
+
+/* product page */
+.main-content {
+  padding: 0;
+  margin: 0;
+}
+
+.main-content .left-content {
+  padding-left: 0;
+}
+.body-title {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 30px;
+  font-weight: 700;
+}
+.box {
+  background-color: #fff;
+  position: relative;
+  padding: 10px 15px;
+  margin-top: 25px;
+  border-radius: 15px;
+  overflow: hidden;
+  min-height: 317px;
+}
+.box a {
+  color: #000000;
+  text-decoration: none;
+}
+.box .img-box {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  /*padding: 15px 30px;*/
+  height: 245px;
+}
+.img-box img {
+  width: 100%;
+  /*max-height: 175px;*/
+}
+img {
+  vertical-align: middle;
+  border-style: none;
+}
+.box .detail-box {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+}
+/* contact */
+.contents {
+  width: 100%;
+  background-color: #eeeeee;
+  box-sizing: border-box;
+}
+.contents > .content_body {
+  max-width: 1500px;
+}
+.article_contacts {
+  width: 100%;
+  min-height: 500px;
+  padding: 10px 30px;
+}
+.article_contacts > .contacts_top {
+  width: 100%;
+  float: left;
+  position: relative;
+}
+
+.contacts_top p {
+  margin: 10px 0;
+  font-family: "Times New Roman", Times, serif;
+}
+
+legend {
+  display: block;
+  padding-inline-start: 2px;
+  padding-inline-end: 2px;
+  border-width: initial;
+  border-style: none;
+  border-color: initial;
+  border-image: initial;
+}
+.contacts_top > .right input {
+  width: 100%;
+  height: 30px;
+  margin: 20px 0;
+  display: block;
+}
+
+.contacts_top > .right textarea {
+  border-radius: 3px;
+  margin: 20px 0;
+  display: block;
+  width: 100%;
+  height: 150px;
+}
+
+/* footer */
+.footer {
+  position: unset;
+}
+/* alter */
+
+.alert-custom {
+  height: 15px;
+  display: flex;
+  padding: 15px 0 0 0;
+  align-items: center;
+  color: red;
+}
