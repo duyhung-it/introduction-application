@@ -92,4 +92,24 @@ public class VideoRepository implements IVideoRepository {
             return false;
         }
     }
+
+    @Override
+    public List<Video> getVideoFavorite(Long userId) {
+        SessionFactory sessionFactory = HibernateUtil.getSessionFactory();
+        Transaction transaction = null;
+        List<Video> listResults = null;
+        try(Session session = sessionFactory.openSession()){
+            transaction = session.beginTransaction();
+            listResults = session.createQuery("select v from Video v " +
+                    "join v.favorites f where f.userId = :userId",Video.class)
+                    .setParameter("userId",userId)
+                    .getResultList();
+            transaction.commit();
+        }catch (Exception ex){
+            if(transaction != null) transaction.rollback();
+            System.out.println(ex.getMessage());
+        }
+        return listResults;
+    }
+
 }

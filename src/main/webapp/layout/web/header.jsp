@@ -9,7 +9,7 @@
     <div class="container-fluid">
 
         <!-- LOGO -->
-        <a href="<c:url value="/home"/>" class="topnav-logo">
+        <a href="<c:url value="/home"/>" class="topnav-logo pt-3">
                                 <span class="topnav-logo-lg">
                                     <img src="<c:url value="/template/assets/images/logo-light.png"/>" alt="" height="16">
                                 </span>
@@ -47,9 +47,9 @@
                     </a>
                 </c:if>
                 <c:if test="${user == null}">
-                    <ul>
-                        <li><a href="<c:url value="/login?action=login"/>">Login</a></li>
-                        <li><a href="#">Sign up</a></li>
+                    <ul class="pt-3 list-unstyled">
+                        <li class="mr-1"><a class=" text-white-50" href="<c:url value="/login?action=login"/>">Login</a></li>
+                        <li><a class=" text-white-50" href="#">Sign up</a></li>
                     </ul>
                 </c:if>
                 <div class="dropdown-menu dropdown-menu-right dropdown-menu-animated topbar-dropdown-menu profile-dropdown"
@@ -100,6 +100,12 @@
                         <a class="nav-link" href="<c:url value="/home"/>"
                            aria-haspopup="true" aria-expanded="true">
                             <i class="uil-dashboard mr-1"></i>Home
+                        </a>
+                    </li>
+                    <li class="nav-item active ">
+                        <a class="nav-link" href="<c:url value="/video-my-favorites"/>"
+                           aria-haspopup="true" aria-expanded="true">
+                            <i class="uil-dashboard mr-1"></i>My favorites
                         </a>
                     </li>
                 </ul>

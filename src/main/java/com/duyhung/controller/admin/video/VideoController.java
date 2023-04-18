@@ -40,7 +40,7 @@ public class VideoController extends HttpServlet {
         String youtubeLink = request.getParameter("youtube");
         Boolean active = Boolean.parseBoolean(request.getParameter("active"));
         Integer view = 0;
-        Long id = idStr == null ? null : Long.parseLong(idStr);
+        Long id = idStr.isEmpty() ? null : Long.parseLong(idStr);
         Video video = new Video(id,title,poster,view,description,active,youtubeLink);
         if(id == null){
             Long savedId = service.save(video);

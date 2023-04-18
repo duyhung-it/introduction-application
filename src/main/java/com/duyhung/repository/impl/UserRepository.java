@@ -16,7 +16,8 @@ public class UserRepository implements IUserRepository {
         SessionFactory sessionFactory = HibernateUtil.getSessionFactory();
         User result = null;
         Transaction transaction = null;
-        try(Session session = sessionFactory.openSession()){
+        try{
+            Session session = sessionFactory.openSession();
             transaction = session.beginTransaction();
             Query<User> query = session.createQuery("from User where email = :email and password = :password", User.class);
             query.setParameter("email",email)

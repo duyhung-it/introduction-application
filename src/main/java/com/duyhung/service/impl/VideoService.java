@@ -36,4 +36,9 @@ public class VideoService implements IVideoService {
     public Boolean update(Video video) {
         return repository.update(video);
     }
+
+    @Override
+    public List<Video> getVideoFavorite(Long userId) {
+        return repository.getVideoFavorite(userId);
+    }
 }

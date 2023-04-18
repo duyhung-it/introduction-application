@@ -8,6 +8,7 @@ import lombok.Setter;
 import javax.persistence.*;
 import java.io.Serializable;
 import java.sql.Timestamp;
+import java.time.LocalDateTime;
 
 @AllArgsConstructor
 @NoArgsConstructor
@@ -19,14 +20,11 @@ public class Favorite implements Serializable {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
-    @ManyToOne
     @JoinColumn(name = "userId")
-    private User user;
-    @ManyToOne
+    private Long userId;
     @JoinColumn(name = "videoId")
-    private Video video;
-    @Column(name = "email")
-    private String email;
-    @Column(name = "likeDate")
-    private Timestamp likeDate;
+    private Long videoId;
+    @Transient
+//    @Column(name = "likeDate")
+    private LocalDateTime likeDate;
 }

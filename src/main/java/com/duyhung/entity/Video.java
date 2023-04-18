@@ -7,6 +7,7 @@ import lombok.Setter;
 
 import javax.persistence.*;
 import java.io.Serializable;
+import java.util.List;
 
 @AllArgsConstructor
 @NoArgsConstructor
@@ -30,4 +31,16 @@ public class Video implements Serializable {
     private Boolean active;
     @Column(name = "youtube_link")
     private String youtubeLink;
+    @OneToMany(mappedBy = "videoId")
+    private List<Favorite> favorites;
+
+    public Video(Long id, String title, String poster, Integer views, String description, Boolean active, String youtubeLink) {
+        this.id = id;
+        this.title = title;
+        this.poster = poster;
+        this.views = views;
+        this.description = description;
+        this.active = active;
+        this.youtubeLink = youtubeLink;
+    }
 }

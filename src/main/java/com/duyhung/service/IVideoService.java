@@ -10,4 +10,5 @@ public interface IVideoService {
     Video findById(Long id);
     Boolean remove(Video video);
     Boolean update(Video video);
+    List<Video> getVideoFavorite(Long userId);
 }
