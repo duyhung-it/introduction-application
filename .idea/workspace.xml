@@ -9,36 +9,25 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f08386bc-9356-4da4-8119-1da74698af76" name="Changes" comment="updated">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/duyhung/controller/web/FavoriteController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/duyhung/repository/IFavoriteRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/duyhung/repository/impl/FavoriteRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/duyhung/service/IFavoriteService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/duyhung/service/impl/FavoriteService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/duyhung/util/HttpUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/template/assets/js/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/uploads/beautiful_01.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/views/web/error404.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/views/web/favorite-videos.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/artifacts/IntroductionApplication_war_exploded.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/artifacts/IntroductionApplication_war_exploded.xml" afterDir="false" />
+    <list default="true" id="f08386bc-9356-4da4-8119-1da74698af76" name="Changes" comment="upload like video">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/IntroductionApplication.iml" beforeDir="false" afterPath="$PROJECT_DIR$/IntroductionApplication.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/duyhung/controller/admin/HomeController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/duyhung/controller/admin/HomeController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/duyhung/controller/admin/video/VideoController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/duyhung/controller/admin/video/VideoController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/duyhung/controller/web/HomeController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/duyhung/controller/web/HomeController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/duyhung/entity/Favorite.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/duyhung/entity/Favorite.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/duyhung/entity/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/duyhung/entity/User.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/duyhung/entity/Video.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/duyhung/entity/Video.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/duyhung/repository/IVideoRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/duyhung/repository/IVideoRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/duyhung/repository/impl/UserRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/duyhung/repository/impl/UserRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/duyhung/repository/impl/VideoRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/duyhung/repository/impl/VideoRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/duyhung/service/IVideoService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/duyhung/service/IVideoService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/duyhung/service/impl/VideoService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/duyhung/service/impl/VideoService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/layout/web/header.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/layout/web/header.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/views/web/detail-video.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/views/web/detail-video.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/views/web/home.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/views/web/home.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/template/assets/css/app-dark.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/template/assets/css/app-dark.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/template/assets/css/app-dark.min.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/template/assets/css/app-modern-dark.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/template/assets/css/app-modern-dark.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/template/assets/css/app-modern-dark.min.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/template/assets/css/app-modern.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/template/assets/css/app-modern.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/template/assets/css/app-modern.min.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/template/assets/css/app.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/template/assets/css/app.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/template/assets/css/app.min.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/template/assets/css/vendor/britecharts.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/template/assets/css/vendor/frappe-gantt.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/template/assets/css/vendor/fullcalendar.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/template/assets/css/vendor/jquery-jvectormap-1.2.2.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/template/assets/css/vendor/simplemde.min.css" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/webapp/views/web/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/views/web/index.jsp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -235,6 +224,7 @@
       <workItem from="1681178531193" duration="3465000" />
       <workItem from="1681310880360" duration="871000" />
       <workItem from="1681386299508" duration="8000" />
+      <workItem from="1681836445020" duration="797000" />
     </task>
     <task id="LOCAL-00001" summary="updated">
       <created>1678782374394</created>
@@ -243,7 +233,14 @@
       <option name="project" value="LOCAL" />
       <updated>1678782374394</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="upload like video">
+      <created>1681836594638</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1681836594638</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -263,7 +260,8 @@
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="updated" />
-    <option name="LAST_COMMIT_MESSAGE" value="updated" />
+    <MESSAGE value="upload like video" />
+    <option name="LAST_COMMIT_MESSAGE" value="upload like video" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
